@@ -8,4 +8,4 @@ Place your images here. The portfolio is pre-configured to look for these asset 
 - `adsb.mp4` / `air-traffic.png` -> Dynamic real-time preview & poster for ADS-B Air Traffic Radar SPA
 - `cv-alessandro-milos.pdf` -> Your downloadable CV / Resume
 
-> **Note:** Whenever an image file is absent or loading, the website automatically displays the sleek red placeholder container as requested.
+> **Note:** Whenever an image file is absent or loading, the website automatically displays a clean, warm beige placeholder container seamlessly matching the page aesthetic.

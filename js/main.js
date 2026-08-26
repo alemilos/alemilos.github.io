@@ -345,7 +345,7 @@ function initClipboardActions() {
 }
 
 /**
- * Handle asset images if added by user; maintain red background if not present
+ * Handle asset images if added by user; maintain clean beige placeholder background if not present
  */
 function initImageFallbacks() {
   const projectMedia = document.querySelectorAll(
@@ -354,7 +354,7 @@ function initImageFallbacks() {
 
   projectMedia.forEach((media) => {
     media.addEventListener("error", function () {
-      // Hide broken media tag so the red container background remains clean and solid
+      // Hide broken media tag so the container background remains clean and seamless
       this.style.display = "none";
       if (this.parentElement) {
         this.parentElement.classList.add("is-empty");

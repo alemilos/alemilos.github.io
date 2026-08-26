@@ -16,9 +16,10 @@
   --border-light: #EFEAE2;
   --border-dark: #2B2A27;
 
-  /* Red container placeholder as specifically requested */
-  --placeholder-red: #DE3618;
-  --placeholder-red-subtle: #C92F13;
+  /* Media & Image container placeholder (warm beige editorial tones) */
+  --placeholder-bg: #EFE9E0;
+  --placeholder-bg-subtle: #F6F2EB;
+  --placeholder-border: #E2DBD0;
 
   /* Typography */
   --font-serif: 'Newsreader', 'Playfair Display', Georgia, serif;
