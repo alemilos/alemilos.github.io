@@ -1,0 +1,85 @@
+:root {
+  /* Color Palette - Warm Editorial Minimalist */
+  --bg-main: #FAF7F2;
+  --bg-card: #FFFFFF;
+  --bg-card-subtle: #F6F2EB;
+  --bg-card-hover: #FCFAF7;
+  --bg-dark: #121212;
+  --bg-dark-hover: #262626;
+  
+  --text-primary: #141413;
+  --text-secondary: #54514D;
+  --text-muted: #858078;
+  --text-light: #FBF9F5;
+
+  --border-main: #E7E1D6;
+  --border-light: #EFEAE2;
+  --border-dark: #2B2A27;
+
+  /* Red container placeholder as specifically requested */
+  --placeholder-red: #DE3618;
+  --placeholder-red-subtle: #C92F13;
+
+  /* Typography */
+  --font-serif: 'Newsreader', 'Playfair Display', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+  /* Spacing */
+  --container-max-width: 1220px;
+  --header-height: 76px;
+  
+  /* Radii */
+  --radius-pill: 9999px;
+  --radius-card: 20px;
+  --radius-lg: 24px;
+  --radius-avatar: 32px;
+  --radius-sm: 12px;
+
+  /* Shadows */
+  --shadow-sm: 0 2px 8px rgba(20, 20, 19, 0.04);
+  --shadow-md: 0 8px 24px rgba(20, 20, 19, 0.06);
+  --shadow-hover: 0 12px 32px rgba(20, 20, 19, 0.08);
+
+  /* Transitions */
+  --transition-fast: 0.18s ease;
+  --transition-smooth: 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: var(--bg-main);
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+  line-height: 1.55;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
