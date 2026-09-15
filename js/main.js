@@ -35,7 +35,7 @@ const translations = {
 
     "section.experience": "Working experience",
     "exp.raxar.role": "Middle Frontend & Fullstack Developer",
-    "exp.raxar.date": "2024 - Present",
+    "exp.raxar.date": "2024 - 2026",
     "exp.falco.role": "Junior Frontend Developer",
     "exp.falco.date": "2023 - 2024",
 
@@ -112,7 +112,7 @@ const translations = {
 
     "section.experience": "Esperienza lavorativa",
     "exp.raxar.role": "Middle Frontend & Fullstack Developer",
-    "exp.raxar.date": "2024 - Presente",
+    "exp.raxar.date": "2024 - 2026",
     "exp.falco.role": "Junior Frontend Developer",
     "exp.falco.date": "2023 - 2024",
 
